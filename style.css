@@ -3,23 +3,21 @@
     --green: #93ffa9;
     --blue: #93adff;
 }
-
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: Verdana, serif;
 }
-
 body {
     background-color: #222222;
     color: white;
     padding: 50px 5%;
     text-align: center;
+    min-width: 800px; /* Ensure the body has a minimum width */
 }
-
 input {
-    width: 700px;
+    width: 800px; /* Increased width */
     display: block;
     border: 5px solid var(--blue);
     padding: 15px 20px;
@@ -31,14 +29,12 @@ input {
     border-radius: 10px;
     transition: border-color 250ms;
 }
-
 input:focus {
     border-color: var(--green);
     outline: none;
 }
-
 button {
-    width: 700px;
+    width: 800px; /* Increased width */
     background-color: var(--blue);
     color: #222222;
     font-size: 20px;
@@ -50,28 +46,23 @@ button {
     cursor: pointer;
     transition: background-color 250ms;
 }
-
 button:hover {
     background-color: var(--green);
 }
-
 p {
     margin: 20px 0px;
 }
-
 a {
     color: var(--red);
 }
-
 a:hover {
     text-decoration: none;
-  }
-
+}
 .credit {
-  font-size: smaller;
-  position: absolute;
-  top: auto;
-  left: auto;
-  right: 10px;
-  bottom: 10px;
+    font-size: smaller;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 10px;
+    bottom: 10px;
 }
